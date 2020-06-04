@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/global"
+            android:title="Global"
+            android:icon="@drawable/global"/>
+        <item
+            android:id="@+id/India"
+            android:title="India"
+            android:icon="@drawable/indialabel"/>
+        <item
+            android:id="@+id/states"
+            android:title="State-Wise Tally"
+            android:icon="@drawable/statwisetally"/>
+        <item
+            android:id="@+id/hospitals"
+            android:title="Hospital and Beds"
+            android:icon="@drawable/hospital_ic"/>
+        <item
+            android:id="@+id/helplines"
+            android:title="Helplines"
+            android:icon="@drawable/helplines"/>
+        <item
+            android:id="@+id/Others"
+            android:title="Other Countries"
+            android:icon="@drawable/others"/>
+
+        <item
+            android:id="@+id/exit"
+            android:title="Exit"
+            android:icon="@drawable/exit"/>
+    </group>
+
+</menu>

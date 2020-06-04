@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="#212121">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/covidtlogo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Covid-19 Tracer"
+        android:layout_marginTop="20dp"
+        android:textColor="#0097a7"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/highlandgothic"
+        android:layout_marginStart="15dp"/>
+
+</LinearLayout>
